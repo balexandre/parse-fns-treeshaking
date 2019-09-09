@@ -1,0 +1,21 @@
+{
+  "name": "parse-fns-treeshaking",
+  "version": "1.0.0",
+  "description": "A simple date-fns tree-shaking test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && webpack"
+  },
+  "keywords": [],
+  "author": "Bruno Alexandre",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
